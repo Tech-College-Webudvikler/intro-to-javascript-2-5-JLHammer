@@ -104,3 +104,14 @@ mainSection.appendChild(paragraph3);
 // For In loop
 // For Of loop
 // ForEach loop
+
+// ForEach loop example:
+let dishes = ["pizza", "lasagna", "spaghettiBolognese"];
+
+dishes.forEach((dish) => {
+  const h2 = document.createElement("h2");
+  const p = document.createElement("p");
+  p.textContent = dish;
+  p.classList.add("dishes-again");
+  mainSection.appendChild(p);
+});
