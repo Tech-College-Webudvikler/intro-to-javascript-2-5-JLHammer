@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Yc7VBqv-)
+
 # Javascript Introduktion 2.5 - Repetition (Strings, DOM´en og Variabler)
 
 Repetition af string metoder, dom manipulation og variabler
@@ -12,7 +14,7 @@ Denne øvelsesopgave går ud på at øve dig i at bruge variabler i JavaScript. 
   men det ene tal skal være 5 og det andet skal være 12.
 - Dine to tal skal nu plusses sammen og gemmes i en ny variabel der hedder "result".
 - Herefter skal "result" variablen ganges med 7 og gemmes i samme variabel; "result"
-- Console.log til sidst "result". Hvis du får 504 har du løst opgaven korrekt.
+- Console.log til sidst "result". Hvis du får 119 har du løst opgaven korrekt.
 
 - Bonus: Gå tilbage i koden og lav alle dine 'let' om til 'const'. Har du gjort det korrekt skulle du gerne få en fejl besked. Brug internettet til at analysere fejl beskeden og skriv en kort kommentar i din kode om hvorfor dette ikke virker.
 
@@ -50,4 +52,5 @@ Denne øvelsesopgave går ud på at lære hvad strings er for en størrelse i Ja
 Hvis du kan se dine tre yndlingsretter har du løst opgaven korrekt.
 
 - Bonus: Undersøg på internettet om der en let måde at gentage et stykke kode på, et bestemt antal gange, så du ikke skal skrive så meget gentagelse.
+
 # JavaScript-intro-2.5

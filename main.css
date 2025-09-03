@@ -14,6 +14,53 @@ body {
 h1 {
   align-self: center;
   justify-self: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
-    sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.myHeader2,
+.dishes,
+.dishes-again {
+  justify-self: center;
+  align-self: center;
+}
+
+.myHeader2 {
+  font-size: 2rem;
+  color: blue;
+  transform: rotate(-15deg);
+}
+
+.dishes {
+  font-size: 1.2rem;
+  color: red;
+  background-color: green;
+  margin: 2rem 0;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  transition: 0.4s ease;
+}
+
+.dishes-again {
+  font-size: 1.2rem;
+  color: green;
+  background-color: red;
+  margin: 2rem 0;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  transition: 0.4s ease;
+}
+
+.dishes:hover {
+  filter: brightness(130%);
+  font-weight: bold;
+  cursor: pointer;
+  transform: rotate(30deg) scale(1.1);
+}
+
+.dishes-again:hover {
+  filter: brightness(130%);
+  font-weight: bold;
+  cursor: pointer;
+  transform: rotate(-30deg) scale(1.1);
 }
